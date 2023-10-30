@@ -4,13 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false,
-  apiUrl: 'http://testlab.g-gis.com/GISDESAR/Siggas.WebApi/api/service',
-  // apiUrl: 'http://localhost/Siggas.WebApi/api/service',
-  fileUploadUrl: 'http://testlab.g-gis.com/siggas.ByteTransfer/api/service',
-  outSrId: 3116,
-  urlDojo: '/assets/agsjs',
-  dbOwner: 'GISCARIBE',
-  editorSeparator: '|',
-  editorSeparator2: ','
+   production: false,
+   apiUrl: 'http://giscaribe.gascaribe.com:3388/SIGGASWEBGISDESAR/Siggas.WebApi/api/service',
+   // apiUrl: 'http://localhost/Siggas.WebApi/api/service',
+   fileUploadUrl: 'http://testlab.g-gis.com/siggas.ByteTransfer/api/service',
+   outSrId: 3116,
+   urlDojo: '/assets/agsjs',
+   dbOwner: 'GISCARIBE',
+   editorSeparator: '|',
+   editorSeparator2: ','
 };
